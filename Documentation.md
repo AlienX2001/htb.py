@@ -4,7 +4,9 @@
 
 ### 1. id_by_name(api_token,user_name) :-
 Get a user's hackthebox ID by his/her name
+
   api_token and user_name both in string format
+  
   - If user exists then returns a dict object having ID and name
   ![success](https://raw.githubusercontent.com/AlienX2001/htb.py/main/images/success_id_by_name.jpg)
   - If user doesnt exist then returns a string "Not Found"
