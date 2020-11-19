@@ -37,3 +37,8 @@ searches ippsec.rocks for any walkthrough for the specified box name
   ![success](https://raw.githubusercontent.com/AlienX2001/htb.py/main/images/success_walkthrough.jpg)
   - If a box is active or is invalid or is not in ippsec's list then returns a string "Not Found"
   ![fail](https://raw.githubusercontent.com/AlienX2001/htb.py/main/images/fail_walkthrough.jpg)
+  
+## 6. update() :-
+updates the local copy of dataset from the database of ippsec.rocks
+  - If changes are done (local and remote have changes so syncying them both)
+  - If changes arent done (local and remote both are in sync)
