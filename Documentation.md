@@ -43,4 +43,5 @@ updates the local copy of dataset from the database of ippsec.rocks
   - If changes are done (local and remote have changes so syncying them both)
   ![different](https://raw.githubusercontent.com/AlienX2001/htb.py/main/images/update_different.jpg)
   - If changes arent done (local and remote both are in sync)
+  
   ![same](https://raw.githubusercontent.com/AlienX2001/htb.py/main/images/update_same.jpg)
