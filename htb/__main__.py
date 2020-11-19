@@ -1,6 +1,7 @@
 import htb.boxes as b
 import htb.users as u
 import htb.ippsec as i
+import htb.updater as up
 
 header="Mozilla/5.0 (Windows NT 10.0; Trident/7.0; rv:11.0) like Gecko"
 
@@ -38,3 +39,8 @@ def box_info(token,name):
 
 def walkthrough(name):
     return i._ippsec(name)
+
+# to update the local copy of the dataset
+
+def update():
+    print(up.update())
