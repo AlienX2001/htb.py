@@ -1,6 +1,6 @@
 # Documentation for using this module
 
-## Callable Funcion, their parameters and their returned objects
+## Callable Function, their parameters and their returned objects
 
 ### 1. id_by_name(api_token,user_name) :-
 Get a user's hackthebox ID by his/her name
